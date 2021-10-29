@@ -23,4 +23,7 @@ module.exports = withMdxEnhanced({
     );
     return config;
   },
+  images: {
+      loader: 'imgix',
+    },
 });
