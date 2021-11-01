@@ -99,7 +99,7 @@ GENERAL
 		}
 
 
-	/***** Links global *****/
+	/***** Links *****/
 		a{
 			color:inherit;
 			text-decoration: none;
@@ -112,6 +112,24 @@ GENERAL
 				text-decoration: underline;
 				text-decoration-style: dotted;
 			}
+		}
+
+
+	/***** Container *****/
+		.container{
+			width: 100%;
+			max-width: $content_width_l;
+			margin: 0 auto;
+		}
+
+	/***** Flex *****/
+		.flexRow{
+			display: flex;
+			flex-direction: row;
+		}
+		.flexColumn{
+			display: flex;
+			flex-direction: column;
 		}
 
 

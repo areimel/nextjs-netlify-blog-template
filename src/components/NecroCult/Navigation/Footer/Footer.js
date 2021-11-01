@@ -6,8 +6,8 @@ export default function Footer({
   //props
 }) {
   return (
-  	<nav id="Footer" className={styles.Footer} >
-  		  
-	</nav>
+    <footer id="Footer" className={styles.Footer} >
+      Necro Cult Zine Footer
+    </footer>
   )
 }

@@ -1,6 +1,6 @@
 import styles from './DesktopNav.module.scss'
 import styled from "styled-components";
-import Container from '@components/Layout/Container/Container'
+import Container from '../../Layout/Container/Container'
 
 
 
