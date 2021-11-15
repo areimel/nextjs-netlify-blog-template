@@ -10,6 +10,10 @@ export type PostContent = {
   readonly title: string;
   readonly slug: string;
   readonly tags?: string[];
+  readonly column: string;
+  readonly image: string;
+  readonly album_credit: string;
+  readonly snippet: string;
 };
 
 let postCache: PostContent[];

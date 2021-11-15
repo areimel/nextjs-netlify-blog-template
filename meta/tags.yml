@@ -10,12 +10,3 @@ tags:
   - slug: mdx
     name: mdx
   - slug: markdown
-    name: markdown
-    - slug: blackmetal
-    name: blackmetal
-    - slug: doommetal
-    name: doommetal
-    - slug: truecrime
-    name: truecrime
-    - slug: news
-    name: news

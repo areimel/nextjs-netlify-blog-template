@@ -12,7 +12,8 @@ export default function PostItem({ post }: Props) {
   return (
     <BlogListing
     	postHeadline={post.title}
-    	postUrl={post.slug}
+      postSnippet={post.snippet}
+    	postUrl={'/posts/' + post.slug}
     	postDate={parseISO(post.date)}
     />
   );

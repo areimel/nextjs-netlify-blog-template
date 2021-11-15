@@ -8,22 +8,22 @@ Description:	Store SCSS vars here
 
 
 /***** Color Variables *****/
-	$black: 			#212121;
-	$white: 			#fafafa;
-	$grey_1:		#ececec;
-	$grey_2:		#3e3e3e;
+	$black: 				#212121;
+	$white: 				#fafafa;
+	$grey_1:			#ececec;
+	$grey_2:			#3e3e3e;
 
-	$red: 			#fb0000;
+	$red: 				#fb0000;
+	$dark_yellow: 	#806914;
 	
-	$nasa_grey:	#D1D3D4;
 
 	/***** Named Colors *****/
 		$primary_color:		$black;
-		$secondary_color:		$white;
+		$secondary_color:	$white;
 
 		$background_color:	$white;
-		$text_color:			$black;
-		$accent_color:		$grey_1;
+		$text_color:				$black;
+		$accent_color:			$grey_1;
 
 
 /***** Fonts *****/
@@ -34,17 +34,17 @@ Description:	Store SCSS vars here
 /***** Font Sizes *****/
 	$font_size_heading:	65px;
 	$font_size_subhead:	36px;
-	$font_size_body:		20px;
-	$font_size_detail:	16px;
+	$font_size_body:		18px;
+	$font_size_detail:		14px;
 
 /***** Letter Spacing *****/
-	$letterSpacingWide:		0.035em;
+	$letterSpacingWide:		0.05em;
 	$letterSpacingNormal:	0.035em;
 
 /***** Content Widths *****/
 	$content_width_s: 	650px;
 	$content_width_m: 	920px;
-	$content_width_l: 	1250px;
+	$content_width_l: 	1450px;
 
 
 /***** Transition Timings *****/
@@ -54,9 +54,10 @@ Description:	Store SCSS vars here
 
 
 /***** Z-Index Ranges *****/
-	$z_index_base: 	0;
+	//use calc(); to add on top of these
+	$z_index_base: 		0;
 	$z_index_medium: 	100;
-	$z_index_high: 	1000;
+	$z_index_high: 		1000;
 
 /***** Shadows *****/
 
@@ -83,4 +84,4 @@ Description:	Store SCSS vars here
 		0 0 10vw $red, 
 		0 0 10vw $red, 
 		0 0 .4vw $red, 
-		.25vw .25vw .1vw #806914;
+		.25vw .25vw .1vw $dark_yellow;
