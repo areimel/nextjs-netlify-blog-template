@@ -1,17 +1,18 @@
 import styles from './Layout.module.scss'
 import Head from 'next/head'
-import MasterJS from '@components/Layout/MasterJS/MasterJS'
-import MasterCSS from '@components/Layout/MasterCSS/MasterCSS'
-import DesktopNav from '@components/Navigation/DesktopNav/DesktopNav'
-import MobileNav from '@components/Navigation/MobileNav/MobileNav'
-import NavMenu from '@components/Navigation/NavMenu/NavMenu'
-import Footer from '@components/Navigation/Footer/Footer'
-import FilmGrainOverlay from '@components/Navigation/FilmGrainOverlay/FilmGrainOverlay'
+import MasterJS from '@components/NecroCult/Layout/MasterJS/MasterJS'
+import MasterCSS from'@components/NecroCult/Layout/MasterCSS/MasterCSS'
+import DesktopNav from '@components/NecroCult/Navigation/DesktopNav/DesktopNav'
+import MobileNav from '@components/NecroCult/Navigation/MobileNav/MobileNav'
+import NavMenu from '@components/NecroCult/Navigation/NavMenu/NavMenu'
+import Footer from '@components/NecroCult/Navigation/Footer/Footer'
+import FilmGrainFilter from '@components/NecroCult/FilmGrainFilter/FilmGrainFilter'
 
 
 
 export default function Layout({ 
 	//props
+	children
 }) {
   return (
 	<>
@@ -19,7 +20,7 @@ export default function Layout({
 			<MasterCSS/>
 		</Head>
 		
-		<FilmGrainOverlay/>
+		<FilmGrainFilter/>
 		<div className={styles.OuterLayout}>
   			<NavMenu/>
   			<div className={styles.InnerLayout}>

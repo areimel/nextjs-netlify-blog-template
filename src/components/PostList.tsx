@@ -16,7 +16,9 @@ type Props = {
 export default function PostList({ posts, tags, pagination }: Props) {
   return (
     <div className={"container"}>
+      
       <div className={"posts"}>
+        
         <ul className={"post-list"}>
           {posts.map((it, i) => (
             <li key={i}>
@@ -24,6 +26,7 @@ export default function PostList({ posts, tags, pagination }: Props) {
             </li>
           ))}
         </ul>
+        
         <Pagination
           current={pagination.current}
           pages={pagination.pages}
@@ -32,7 +35,11 @@ export default function PostList({ posts, tags, pagination }: Props) {
             as: (page) => (page === 1 ? null : "/posts/page/" + page),
           }}
         />
+
       </div>
+
+
+      {/*
       <ul className={"categories"}>
         {tags.map((it, i) => (
           <li key={i}>
@@ -40,6 +47,9 @@ export default function PostList({ posts, tags, pagination }: Props) {
           </li>
         ))}
       </ul>
+      */}
+
+
       <style jsx>{`
         .container {
           display: flex;

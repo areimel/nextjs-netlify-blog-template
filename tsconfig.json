@@ -16,13 +16,13 @@
 
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["./src/components/*"],
-      "@styles/*": ["./public/styles/*"],
-      "@scripts/*": ["./public/scripts/*"],
-      "@fonts/*": ["./public/fonts/*"]
+      "@components/*": ["./resources/components/*"],
+      "@styles/*": ["./resources/styles/*"],
+      "@scripts/*": ["./resources/scripts/*"],
+      "@fonts/*": ["./resources/fonts/*"]
     }
   },
-  
+
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }

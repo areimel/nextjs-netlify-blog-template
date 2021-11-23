@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout from "../components/Layout";
+import Layout from "@components/NecroCult/Layout/Layout/Layout";
 import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
@@ -27,7 +27,6 @@ export default function Index() {
                             Original Next.js template: <span className="handle">@nextjs-netlify-blog</span>
                         </p>
 
-                        <SocialList />
                     </div>
 
                 </div>
@@ -36,7 +35,111 @@ export default function Index() {
             
 
             <section>
-                <div className="container">
+                <div className="homeArticles container">
+                    
+
+
+                    <div className="main">
+                        
+                        {/*Article Preview*/}
+                        <div className="articlePreview">
+                            <div className="inner">
+                                <div className="image"></div>
+                                
+                                <div className="copy">
+                                    <div className="headline">
+                                        <headline>Tales From the Basement: Morbid</headline>
+                                    </div>
+                                    
+                                    <div className="preview"> 
+                                        <article> 
+                                            It has only been a
+                                            few hours since I've translated and spoke aloud
+                                            the first of the demon resurrection passages
+                                            from the Book of the Dead 
+                                        </article> 
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div className="secondary">
+                        
+                        {/*Article Preview*/}
+                        <div className="articlePreview">
+                            <div className="inner">
+                                <div className="image"></div>
+                                
+                                <div className="copy">
+                                    <div className="headline">
+                                        <headline>Tales From the Basement: Morbid</headline>
+                                    </div>
+                                    
+                                    <div className="preview"> 
+                                        <article> 
+                                            It has only been a
+                                            few hours since I've translated and spoke aloud
+                                            the first of the demon resurrection passages
+                                            from the Book of the Dead 
+                                        </article> 
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        {/*Article Preview*/}
+                        <div className="articlePreview">
+                            <div className="inner">
+                                <div className="image"></div>
+                                
+                                <div className="copy">
+                                    <div className="headline">
+                                        <headline>Tales From the Basement: Morbid</headline>
+                                    </div>
+                                    
+                                    <div className="preview"> 
+                                        <article> 
+                                            It has only been a
+                                            few hours since I've translated and spoke aloud
+                                            the first of the demon resurrection passages
+                                            from the Book of the Dead 
+                                        </article> 
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        {/*Article Preview*/}
+                        <div className="articlePreview">
+                            <div className="inner">
+                                <div className="image"></div>
+                                
+                                <div className="copy">
+                                    <div className="headline">
+                                        <headline>Tales From the Basement: Morbid</headline>
+                                    </div>
+                                    
+                                    <div className="preview"> 
+                                        <article> 
+                                            It has only been a
+                                            few hours since I've translated and spoke aloud
+                                            the first of the demon resurrection passages
+                                            from the Book of the Dead 
+                                        </article> 
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
 
                 </div>
             </section>

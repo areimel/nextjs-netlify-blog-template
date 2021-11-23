@@ -4,7 +4,8 @@ import styles from "../../public/styles/content.module.css";
 import Author from "../components/Author";
 import Copyright from "../components/Copyright";
 import Date from "../components/Date";
-import Layout from "../components/Layout";
+import Layout from "@components/NecroCult/Layout/Layout/Layout";
+import Container from "@components/NecroCult/Layout/Container/Container";
 import BasicMeta from "../components/meta/BasicMeta";
 import JsonLdMeta from "../components/meta/JsonLdMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
@@ -35,31 +36,37 @@ export default function Index({
   return ({ children: content }) => {
     return (
       <Layout>
-        <BasicMeta
-          url={`/posts/${slug}`}
-          title={title}
-          keywords={keywords}
-          description={description}
-        />
-        <TwitterCardMeta
-          url={`/posts/${slug}`}
-          title={title}
-          description={description}
-        />
-        <OpenGraphMeta
-          url={`/posts/${slug}`}
-          title={title}
-          description={description}
-        />
-        <JsonLdMeta
-          url={`/posts/${slug}`}
-          title={title}
-          keywords={keywords}
-          date={date}
-          author={authorName}
-          description={description}
-        />
-        <div className={"container"}>
+        <>
+          <BasicMeta
+            url={`/posts/${slug}`}
+            title={title}
+            keywords={keywords}
+            description={description}
+          />
+          <TwitterCardMeta
+            url={`/posts/${slug}`}
+            title={title}
+            description={description}
+          />
+          <OpenGraphMeta
+            url={`/posts/${slug}`}
+            title={title}
+            description={description}
+          />
+          <JsonLdMeta
+            url={`/posts/${slug}`}
+            title={title}
+            keywords={keywords}
+            date={date}
+            author={authorName}
+            description={description}
+          />
+        </>
+        
+       
+        <Container>
+          
+
           <article>
             <header>
               <h1>{title}</h1>
@@ -81,13 +88,15 @@ export default function Index({
               ))}
             </ul>
           </article>
+
+
           <footer>
             <div className={"social-list"}>
               <SocialList />
             </div>
             <Copyright />
           </footer>
-        </div>
+        </Container>
         <style jsx>
           {`
             .container {
