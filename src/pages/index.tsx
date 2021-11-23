@@ -37,54 +37,109 @@ export default function Index() {
             <section>
                 <div className="homeArticles container">
                     
-                    <div className="secondary"></div>
 
-                    <div className="main"></div>
 
-                    {/*Article Preview*/}
-                    <div className="articleSection">
-                        <div className="inner">
-                            <div className="image"></div>
-                            
-                            <div className="copy">
-                                <div className="headline">
-                                    <headline>Tales From the Basement: Morbid</headline>
-                                </div>
+                    <div className="main">
+                        
+                        {/*Article Preview*/}
+                        <div className="articlePreview">
+                            <div className="inner">
+                                <div className="image"></div>
                                 
-                                <div className="preview"> 
-                                    <article> 
-                                        It has only been a
-                                        few hours since I've translated and spoke aloud
-                                        the first of the demon resurrection passages
-                                        from the Book of the Dead 
-                                    </article> 
-                                </div>
+                                <div className="copy">
+                                    <div className="headline">
+                                        <headline>Tales From the Basement: Morbid</headline>
+                                    </div>
+                                    
+                                    <div className="preview"> 
+                                        <article> 
+                                            It has only been a
+                                            few hours since I've translated and spoke aloud
+                                            the first of the demon resurrection passages
+                                            from the Book of the Dead 
+                                        </article> 
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
 
                     </div>
 
-                    <div className="articleSection">
-                        <div className="inner">
-                            <div className="image"></div>
-                            <div className="copy"></div>
+
+                    <div className="secondary">
+                        
+                        {/*Article Preview*/}
+                        <div className="articlePreview">
+                            <div className="inner">
+                                <div className="image"></div>
+                                
+                                <div className="copy">
+                                    <div className="headline">
+                                        <headline>Tales From the Basement: Morbid</headline>
+                                    </div>
+                                    
+                                    <div className="preview"> 
+                                        <article> 
+                                            It has only been a
+                                            few hours since I've translated and spoke aloud
+                                            the first of the demon resurrection passages
+                                            from the Book of the Dead 
+                                        </article> 
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
+
+                        {/*Article Preview*/}
+                        <div className="articlePreview">
+                            <div className="inner">
+                                <div className="image"></div>
+                                
+                                <div className="copy">
+                                    <div className="headline">
+                                        <headline>Tales From the Basement: Morbid</headline>
+                                    </div>
+                                    
+                                    <div className="preview"> 
+                                        <article> 
+                                            It has only been a
+                                            few hours since I've translated and spoke aloud
+                                            the first of the demon resurrection passages
+                                            from the Book of the Dead 
+                                        </article> 
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        {/*Article Preview*/}
+                        <div className="articlePreview">
+                            <div className="inner">
+                                <div className="image"></div>
+                                
+                                <div className="copy">
+                                    <div className="headline">
+                                        <headline>Tales From the Basement: Morbid</headline>
+                                    </div>
+                                    
+                                    <div className="preview"> 
+                                        <article> 
+                                            It has only been a
+                                            few hours since I've translated and spoke aloud
+                                            the first of the demon resurrection passages
+                                            from the Book of the Dead 
+                                        </article> 
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div className="articleSection">
-                        <div className="inner">
-                            <div className="image"></div>
-                            <div className="copy"></div>
-                        </div>
-                    </div>
-
-                    <div className="articleSection">
-                        <div className="inner">
-                            <div className="image"></div>
-                            <div className="copy"></div>
-                        </div>
-                    </div>
 
                 </div>
             </section>

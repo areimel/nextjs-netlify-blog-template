@@ -72,12 +72,14 @@ $fixedWidth: 400px;
 		z-index: 12;
 		box-sizing: border-box;
 		padding-left: 50px;
+		color: $black;
 
 		.copy .inner{
 			max-width: 600px;
 			margin-right: auto;
 			margin-left: auto;
 			background-color: transparent;
+
 		}
 
 		/***** Title ****/
@@ -93,6 +95,7 @@ $fixedWidth: 400px;
 				position: relative;
 				z-index: 15;
 				background: $white;
+				color: $black;
 				box-sizing: border-box;
 				overflow: visible;
 				transition: $transition_medium;
@@ -111,7 +114,7 @@ $fixedWidth: 400px;
 				transform: rotate(2deg);
 
 				&:hover{
-					//text-shadow: var(--text-glow-red);
+					text-shadow: $text-glow-red;
 				}
 			}
 
@@ -141,6 +144,7 @@ $fixedWidth: 400px;
 			box-sizing: border-box;
 			z-index: 14;
 			background-color: $white;
+			color: $black;
 			padding-left:35px;
 			transform: rotate(1deg);
 			widows: 3;
@@ -174,7 +178,7 @@ $fixedWidth: 400px;
 				will-change: text-shadow;
 
 				&:hover{
-		   			// text-shadow: var(--text-glow-red);
+		   			text-shadow: $text-glow-red;
 		  		}
 		    	}
 		}

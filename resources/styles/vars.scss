@@ -8,9 +8,9 @@ Description:	Store SCSS vars here
 
 
 /***** Color Variables *****/
-	$black: 				#212121;
+	$black: 				#070504;
 	$white: 				#fafafa;
-	$grey_1:			#ececec;
+	$grey_1:			#ececec; 
 	$grey_2:			#3e3e3e;
 
 	$red: 				#fb0000;
@@ -18,11 +18,11 @@ Description:	Store SCSS vars here
 	
 
 	/***** Named Colors *****/
-		$primary_color:		$black;
-		$secondary_color:	$white;
+		$primary_color:		$white;
+		$secondary_color:	$black;
 
-		$background_color:	$white;
-		$text_color:				$black;
+		$background_color:	$black;
+		$text_color:				$white;
 		$accent_color:			$grey_1;
 
 
@@ -44,7 +44,7 @@ Description:	Store SCSS vars here
 /***** Content Widths *****/
 	$content_width_s: 	650px;
 	$content_width_m: 	920px;
-	$content_width_l: 	1450px;
+	$content_width_l: 	1250px;
 
 
 /***** Transition Timings *****/
@@ -55,7 +55,7 @@ Description:	Store SCSS vars here
 
 /***** Z-Index Ranges *****/
 	//use calc(); to add on top of these
-	$z_index_base: 		0;
+	$z_index_base: 		1;
 	$z_index_medium: 	100;
 	$z_index_high: 		1000;
 

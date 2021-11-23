@@ -7,6 +7,7 @@ import MobileNav from '@components/NecroCult/Navigation/MobileNav/MobileNav'
 import NavMenu from '@components/NecroCult/Navigation/NavMenu/NavMenu'
 import Footer from '@components/NecroCult/Navigation/Footer/Footer'
 import FilmGrainFilter from '@components/NecroCult/FilmGrainFilter/FilmGrainFilter'
+import Texture from '@components/NecroCult/Texture/Texture/Texture'
 
 
 
@@ -23,13 +24,14 @@ export default function Layout({
 		
 		<FilmGrainFilter/>
 		<div className={styles.OuterLayout}>
-  			<NavMenu/>
-  			<div className={styles.InnerLayout}>
-  				<DesktopNav/>
-	  			{/*<MobileNav/>*/}
+			{/*<Texture option="3" opacity="0.75"/>*/}
+			<NavMenu/>
+			<div className={styles.InnerLayout}>
+				<DesktopNav/>
+  			{/*<MobileNav/>*/}
 				{children}
 				<Footer/>
-  			</div>
+			</div>
 		</div>
 		{/*<MasterJS/>*/}
 		<>

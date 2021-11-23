@@ -1,6 +1,6 @@
 import styles from './BlogListing.module.scss'
 import styled from "styled-components";
-import Texture from '@components/Textures/Texture/Texture'
+//import Texture from '@components/Textures/Texture/Texture'
 
 
 
@@ -19,7 +19,7 @@ export default function BlogListing({
 
 		<div className={styles.image}>
 			<a href={postUrl}>
-			<img className="" src={postImage} alt={postAlbumCredit} />
+				<img className="" src={postImage} alt={postAlbumCredit} />
 			</a>
 			<span className={styles.imageCredit + " labelmaker"}>{postAlbumCredit}</span>
 		</div>
@@ -33,17 +33,17 @@ export default function BlogListing({
 						{postColumn}
 					</p>
 					<a className={styles.titleMain} href={postUrl}>
-						<Texture option="8"/>
+						{/*<Texture option="8"/>*/}
 						{postHeadline}
 					</a>
 				</div>
 
 				<div className={styles.snippet }>
-					<Texture option="8"/>
+					{/*<Texture option="8"/>*/}
 					<p>{postSnippet}...</p>
 					<a className={styles.readMore} href={postUrl}>
 						Read More
-					</a>
+					</a> 
 				</div>
 
 			</div>
